@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/products.css">
+<script src="js/home.js" language="javascript" type="text/javascript"></script>
+</head>
+<body >
+<div class="header" >
+  <h1 id="titulo">Más libros, más libres</h1>
+  <img id="logo" src="img/pruebadato" alt="es el logo">
+</div>
+
+<div  class="en_blanco">
+  <div class="menu">
+    <ul>
+      <li >Hacer horario<img  id="mas" class="icono_menu" src="img/mas.png" alt="simbolo del icono más" onclick='iconoMenuMasHorario()'><img id="menos" class="icono_menu_menos" src="img/menos.png" alt="simbolo del icono menos" onclick='iconoMenuMenosHorario()'></li>
+      <ul id="horario" >
+        <li onclick='pagPaginas()'>Páginas</li>
+        <li onclick='pagCapitulos()'>Capitulos</li>
+      </ul>
+      <li >Compra de libros<img  id="mas1" class="icono_menu" src="img/mas.png" alt="simbolo del icono más" onclick='iconoMenuMasCompra()'><img id="menos1" class="icono_menu_menos" src="img/menos.png" alt="simbolo del icono menos" onclick='iconoMenuMenosCompra()'></li>
+      <ul id="compra">
+        <li  onclick='pagDigital()' >Digitales</li>
+        <li  onclick='pagFisico()'>Físicos</li>
+      </ul>
+    </ul>
+  </div>
+
+  <div class="main">
+    <iframe  id="importante"   ></iframe>
+  </div>
+ 
+</div>
+
+<div class="footer" >Este es el footer</div>
+
+</body>
+</html>
